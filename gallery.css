@@ -1,3 +1,4 @@
+
 header {
     background: rgba(250, 250, 250, 0.5);
     height: 60px;
@@ -15,8 +16,8 @@ header {
 }
 
 
-#brand {
-	margin-left: 6%;
+.navbar-brand {
+	margin-left: 90px;
 	color: #383835;
 	font-family: 'Rock Salt', cursive;
 	margin-top: 10px;
@@ -78,7 +79,7 @@ button.onhover{
 
 h1{
 	font-weight: 300;
-    font-size:200;
+    font-size: 2.8rem;
 }
 
 h2{
@@ -87,7 +88,7 @@ h2{
     margin-left: 50px;
     text-align: left;
     padding-left: 20px;
-    font-size: 21px;
+    font-size: 1.2rem;
     font-family: "Cardo", sans-serif;
     line-height: 1.5;
 }
@@ -153,6 +154,7 @@ img {
 	text-align: right;
 	font-family: 'Fira Sans Condensed', sans-serif;
 	font-weight: 200;
+	font-size: 0.9rem;
 	color: #999993;
 }
 .initial{
