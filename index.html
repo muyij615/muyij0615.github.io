@@ -15,6 +15,8 @@
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
 
     <!-- Bootstrap CSS -->
@@ -25,19 +27,21 @@
     <link rel="stylesheet" href="gallery.css">
 
     <title>Muyi.J Photography</title>
+
+
 </head>
 
 <header class="nav-down">
-	<div class="bar-container">
-		<a href="#" class="navbar-brand">Muyi.J</a>
-		<a href="https://vsco.co/jinmuyi/gallery">
-			<img id="vsco"src="https://2.bp.blogspot.com/-YCK9FuHZrc8/XJP1dIZkouI/AAAAAAAAJR8/jyKxVln7xRcfwHTrBV7hhY0I6Fd1DbEGwCK4BGAYYCw/s1600/logo%2Bvsco%2Bicon%2B.png">
-		</a>
-		
-	</div>
+	<a href="#" class="navbar-brand">Muyi.J</a>
 
+	<a href="https://vsco.co/jinmuyi/gallery" target="_blank" and rel="noopener noreferrer">
+		<img class="icon" id="vsco" src="https://2.bp.blogspot.com/-YCK9FuHZrc8/XJP1dIZkouI/AAAAAAAAJR8/jyKxVln7xRcfwHTrBV7hhY0I6Fd1DbEGwCK4BGAYYCw/s1600/logo%2Bvsco%2Bicon%2B.png">
+	</a>
 
-    
+	<a href="https://www.instagram.com/muyi.j/" target="_blank" and rel="noopener noreferrer">
+		<img class="icon" id="ig" src="https://toppng.com/uploads/preview/instagram-line-icon-11549505115q9gjg0yfwn.png">
+	</a>
+
 </header>
 
 
@@ -58,7 +62,7 @@
                 		<h2>
                 			<p>The first city locked down because of Covid-19. Also the city where I grew up. Nine months ago, it was full of fear, anger, and despair. </p>
                 			<p></p>
-							<p>But now, it is gettnig back to life.</p>
+							<p>But now, it is getting back to life.</p>
                 		</h2>
             		</div>
                 </div>    
@@ -69,30 +73,29 @@
 </div>
 
 
-
 <body>
 
 	<div class="container">
 
 		<div id='intro'>
-			<p id="name">Wuhan, China</p>
+			<p id="name">Han Kou, Wuhan</p>
 		</div>
 
 		<section class="container-fluid px-0">
         <div class="row align-items-center">
         	 <div class="col-lg-7" id="JiangHanStreet_1">
 				<img src="https://images.unsplash.com/photo-1605793422636-a31f6fc9b402?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-				<p class="footnote">JiangHan Street. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>
+				<p class="footnote">Jianghan Road. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>
             </div>
             <div class="col-lg-5 intro">
             	<div id="JiangHanStreet_2">
             		<img   src="https://images.unsplash.com/photo-1605793800596-e1998d0a73cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-					<p class="footnote">ZheJiang Building. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>  
+					<p class="footnote">Zhejiang Building. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>  
             	</div>
 	   
             	<div id="JiangHanStreet_3">
             		<img   src="https://images.unsplash.com/photo-1605794502416-721d2a2a6c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
-					<p class="footnote">FaZhan Road. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>  
+					<p class="footnote">Fazhan Road. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>  
             	</div>
             </div>
 
@@ -101,7 +104,7 @@
 
 		<div class="pic">
 			<img src="https://images.unsplash.com/photo-1605760281744-194f5722f956?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
-			<p class="footnote">JiQing Street. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>
+			<p class="footnote">Jiqing Street. Wuhan. China. 2020. <span class="muyi">©Muyi Jin | Muyi.J</span></p>
 		</div>	
 
 
@@ -166,6 +169,10 @@
 		    
 		    lastScrollTop = st;
 		}
+
+		$('.dropdown').hover(function(){ 
+  			$('.dropdown-toggle', this).trigger('click'); 
+		});
 
 	</script>
 </body>
