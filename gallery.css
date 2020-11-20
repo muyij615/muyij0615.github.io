@@ -23,7 +23,7 @@ header {
 	height: 50px;
 } 
 
-.link-icon{
+.icon{
     float: right;
 	margin-right: 20px;
 	margin-top: 15px;
@@ -160,6 +160,7 @@ img {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 
 
 
