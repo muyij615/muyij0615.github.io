@@ -7,32 +7,50 @@ header {
     width: 100%;
 
 	z-index: 1;
+	text-align: center;
   
 }
 .nav-up {
     top: -60px;
 }
 
-.bar-container{
-	text-align: center;
-	height: 60px;
-	margin-left: 20px
-}
 
 .navbar-brand {
+	margin-left: 5%;
 	color: #383835;
 	font-family: 'Rock Salt', cursive;
 	margin-top: 10px;
-	height: 40px;
+	height: 50px;
 } 
-#vsco{
-	align-self: right;
+
+.icon{
+    float: right;
+	margin-right: 20px;
+	margin-top: 15px;
 	width: 28px;
 	padding-bottom: 9px;
 }
 
+#ig{
+	width: 27px;
+}
+.button {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	border: none;
+	background: transparent;
+	color: #b0aea5;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-weight: 200;
+}
+
+button.onhover{
+	color: blue;
+}
+
 .wuhan{
-	margin-top: 100px;
+	margin-top: 95px;
 }
 
 .intro{
@@ -46,7 +64,7 @@ header {
     margin-left: 50px;
     text-align: left;
     padding-left: 20px;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Cardo', serif;
 }
 
 h1{
@@ -60,9 +78,9 @@ h2{
     margin-left: 50px;
     text-align: left;
     padding-left: 20px;
-    font-family: 'Fira Sans Condensed', sans-serif;
-	font-weight: 300;
     font-size: 21px;
+    font-family: "Cardo", sans-serif;
+    line-height: 1.5;
 }
 #intro{
 	margin-right: 50px;
@@ -87,7 +105,8 @@ body {
  	/*margin-left: 1.66%;*/
  	border-bottom: 3px solid #f1f1f1;
  	width: 30%;
- 	padding-bottom: 20px;
+ 	padding-bottom: 10px;
+ 	margin-bottom: 40px;
 
  	text-align: left;
  }
