@@ -17,7 +17,7 @@ header {
 
 
 .navbar-brand {
-	margin-left: 90px;
+	margin-left: 85px;
 	color: #383835;
 	font-family: 'Rock Salt', cursive;
 	margin-top: 10px;
@@ -74,12 +74,12 @@ button.onhover{
     margin-left: 50px;
     text-align: left;
     padding-left: 20px;
-    font-family: 'Cardo', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1{
-	font-weight: 300;
-    font-size: 2.8rem;
+	font-weight: 400;
+    font-size: 2.3rem;
 }
 
 h2{
@@ -88,8 +88,8 @@ h2{
     margin-left: 50px;
     text-align: left;
     padding-left: 20px;
-    font-size: 1.2rem;
-    font-family: "Cardo", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 200;
     line-height: 1.5;
 }
 #intro{
@@ -101,14 +101,13 @@ body {
     font-family: "Nunito", sans-serif;
 
 	padding-top: 30px;
-	padding-bottom: 80px;
 }
 
 #intro {
 	text-align: center;
 }
 
-#name {
+.name {
  	font-family: 'Raleway', sans-serif;
  	font-size: 26px;
  	font-weight: 800;
@@ -128,21 +127,18 @@ body {
 
 .pic {
 	margin-bottom: 100px;
-	margin-top: 50px;
+	margin-top: 70px;
 	padding-bottom: 100px
+}
+
+.grid{
+	margin-bottom: 100px;
 }
 
 img {
 	width: 100%;	
 }
 
-#JiangHanStreet_1{
-	width: 55%;
-}
-
-#JiangHanStreet_2{
- margin-bottom: 70px
-}
 
 #p1{
 	width: 90%;	
@@ -157,6 +153,7 @@ img {
 	font-size: 0.9rem;
 	color: #999993;
 }
+
 .initial{
 	color: #5c5c58;
 }
@@ -173,7 +170,28 @@ img {
 }
 
 
+#footer{
+	background: rgba(232, 231, 230, 0.6);
+	height: 70px;
+	text-align: center;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 0.9rem;
+	color: #c2c2c2;
+}
 
+#footer p { 
+	padding-top: 18px;
+	height:40px;
+	margin-bottom: 0rem;
+	font-size:15px;
+
+}
+
+.footer-icon{
+	font-size:28px;
+	color:#c2c2c2;
+}
 
 
 
